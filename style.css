@@ -381,6 +381,7 @@ header{
 
 .ri-section{
     margin: 70px 0;
+    overflow: hidden;
 }
 .ri-title{
     font-size: 41px;

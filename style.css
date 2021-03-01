@@ -45,7 +45,7 @@ body{
 header{
     background-color: #fff;
     position: fixed;
-    width: 100%;
+    width: 100vw;
     left: 0;
     top: 0;
     z-index: 9999;
@@ -701,6 +701,12 @@ footer .primary-btn{
     .wwd-btn-wrap .secondary-btn{
         width: 100%;
     }
+    .yt-video-wrap img{
+        width: 100%;
+    }
+    .yt-text{
+        width: 100%;
+    }
     .wyg-wrap{
         flex-wrap: wrap;
     }
@@ -714,7 +720,7 @@ footer .primary-btn{
     .wyg-wrap{
         margin-top: 50px;
     }
-    .ri-title,.yt-title,.wyg-title{
+    .ri-title, .yt-title, .wyg-title, .wwd-title{
         font-size: 28px;
     }
     .ri-item{
